@@ -1,7 +1,4 @@
-// Estruturando dado do Modal
-// const modalWrapper = document.querySelector('.modal-wrapper')
-// const modalMessage = document.querySelector('.modal .title span')
-// const modalBtnClose = document.querySelector('.close')
+
 export const Modal = {
   wrapper: document.querySelector('.modal-wrapper'),
   message: document.querySelector('.modal .title span'),
@@ -16,7 +13,7 @@ export const Modal = {
 }
 
 Modal.buttonClose.onclick = () => {
-  // modalWrapper.classList.remove('open')
+  
   Modal.close()
 }
 
