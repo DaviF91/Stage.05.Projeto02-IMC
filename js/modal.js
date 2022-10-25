@@ -19,3 +19,12 @@ Modal.buttonClose.onclick = () => {
   // modalWrapper.classList.remove('open')
   Modal.close()
 }
+
+//Fechar modal (popup) pela tecla ESC
+window.addEventListener('keydown', handleKeydown)
+
+function handleKeydown(event) {
+  if(event.key === 'Escape') {
+    Modal.close()
+  }
+}
